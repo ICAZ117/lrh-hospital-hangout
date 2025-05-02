@@ -4,7 +4,6 @@
     <DiscordSection />
     <AboutSection />
     <ActivitiesSection />
-    <ScheduleSection />
     <TestimonialsSection />
     <FAQSection />
     <ContactSection />
@@ -16,7 +15,6 @@ import HeroSection from '../components/HeroSection.vue'
 import DiscordSection from '../components/DiscordSection.vue'
 import AboutSection from '../components/AboutSection.vue'
 import ActivitiesSection from '../components/ActivitiesSection.vue'
-import ScheduleSection from '../components/ScheduleSection.vue'
 import TestimonialsSection from '../components/TestimonialsSection.vue'
 import FAQSection from '../components/FAQSection.vue'
 import ContactSection from '../components/ContactSection.vue'
@@ -29,7 +27,6 @@ export default {
     DiscordSection,
     AboutSection,
     ActivitiesSection,
-    ScheduleSection,
     TestimonialsSection,
     FAQSection,
     ContactSection
@@ -38,7 +35,7 @@ export default {
     const programStore = useProgramStore()
     
     // Fetch data on component creation
-    programStore.fetchEvents()
+    // programStore.fetchPageData()
     programStore.fetchActivities()
     programStore.fetchFAQs()
     programStore.fetchTestimonials()

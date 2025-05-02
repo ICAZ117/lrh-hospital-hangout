@@ -4,7 +4,7 @@
       <router-link to="/" class="d-flex align-center text-decoration-none">
         <div class="d-flex align-center">
           <img 
-            src="https://www.myLRH.org/-/media/project/logoarchive/featured-logos/lakelandregionalhealth.png" 
+            src="https://www.mylrh.org/wp-content/uploads/2022/05/LRH_Logo_CMYK.svg" 
             alt="Lakeland Regional Health"
             height="50"
           />
@@ -27,8 +27,8 @@
         >
           {{ item.title }}
         </v-btn>
-        <v-btn color="secondary" variant="flat" class="font-weight-medium ml-4" href="#register">
-          Register Now
+        <v-btn color="secondary" variant="flat" class="font-weight-medium ml-4" href="#discord">
+          Join Us
         </v-btn>
       </div>
       
@@ -53,9 +53,9 @@
       >
         <v-list-item-title>{{ item.title }}</v-list-item-title>
       </v-list-item>
-      <v-list-item href="#register" @click="drawer = false">
+      <v-list-item href="#discord" @click="drawer = false">
         <v-btn color="secondary" variant="flat" block>
-          Register Now
+          Join Us
         </v-btn>
       </v-list-item>
     </v-list>
@@ -64,14 +64,13 @@
 
 <script>
 export default {
-  name: 'TheHeader',
+  name: 'Navbar',
   data() {
     return {
       drawer: false,
       navItems: [
         { title: 'About', link: '#about' },
         { title: 'Activities', link: '#activities' },
-        { title: 'Schedule', link: '#schedule' },
         { title: 'FAQ', link: '#faq' },
         { title: 'Contact', link: '#contact' }
       ]

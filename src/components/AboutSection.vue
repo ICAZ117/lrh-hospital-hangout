@@ -62,7 +62,7 @@ export default {
     return {
       features: [
         { icon: 'mdi-hospital-building', text: 'Exclusive Tours' },
-        { icon: 'mdi-hand', text: 'Hands-on Experience' },
+        { icon: 'mdi-hand-back-right', text: 'Hands-on Experience' },
         { icon: 'mdi-account-group', text: 'Networking' },
         { icon: 'mdi-school', text: 'Educational' },
         { icon: 'mdi-certificate', text: 'Volunteer Hours' }

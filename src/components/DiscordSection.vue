@@ -13,13 +13,13 @@
           <v-btn
             color="primary"
             size="x-large"
-            href="https://discord.gg/your-invite-link"
+            :href="discordLink"
             target="_blank"
             class="px-8"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <v-icon start>mdi-discord</v-icon>
+            <v-icon start>mdi-bullhorn-variant</v-icon>
             Join Discord Server
           </v-btn>
         </v-col>
@@ -29,8 +29,27 @@
 </template>
 
 <script>
+import { useProgramStore } from '../stores/programStore'
+
 export default {
-  name: 'DiscordSection'
+  name: 'DiscordSection',
+//   setup() {
+//     const programStore = useProgramStore()
+//     return { programStore }
+//   },
+  data() {
+    return {
+      discordLink: '',
+    }
+  },
+  async beforeMount() {
+    const programStore = useProgramStore()
+    await programStore.fetchPageData()
+
+    const temp = programStore.pageData;
+    console.table("data", temp[0].discordLink);
+    this.discordLink = temp[0].discordLink;
+  },
 }
 </script>
 

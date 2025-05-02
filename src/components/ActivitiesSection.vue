@@ -33,19 +33,6 @@
           </v-card>
         </v-col>
       </v-row>
-      
-      <div class="d-flex justify-center mt-8" data-aos="fade-up" data-aos-delay="400">
-        <v-btn
-          color="secondary"
-          variant="flat"
-          size="large"
-          href="#schedule"
-          class="px-6"
-        >
-          View Schedule
-          <v-icon end>mdi-calendar</v-icon>
-        </v-btn>
-      </div>
     </v-container>
   </section>
 </template>

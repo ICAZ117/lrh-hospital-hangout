@@ -1,22 +1,22 @@
 <template>
   <v-app>
-    <TheHeader />
+    <Navbar />
     <v-main>
       <router-view />
     </v-main>
-    <TheFooter />
+    <Footer />
   </v-app>
 </template>
 
 <script>
-import TheHeader from './components/TheHeader.vue'
-import TheFooter from './components/TheFooter.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
   components: {
-    TheHeader,
-    TheFooter
+    Navbar,
+    Footer
   }
 }
 </script>
