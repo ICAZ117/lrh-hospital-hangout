@@ -3,13 +3,8 @@
     <div class="d-flex align-center justify-space-between w-100 px-4">
       <router-link to="/" class="d-flex align-center text-decoration-none">
         <div class="d-flex align-center">
-          <img 
-            src="https://www.mylrh.org/wp-content/uploads/2022/05/LRH_Logo_CMYK.svg" 
-            alt="Lakeland Regional Health"
-            height="50"
-          />
           <div class="ml-3 d-none d-sm-flex flex-column">
-            <span class="text-h6 font-weight-bold text-primary">Hospital Hangout</span>
+            <span class="text-h6 font-weight-bold text-primary">Healthcare Hangout</span>
             <span class="text-caption text-secondary">Summer Volunteer Program</span>
           </div>
         </div>
@@ -41,7 +36,7 @@
   <v-navigation-drawer v-model="drawer" temporary location="right">
     <v-list>
       <v-list-item class="text-center pa-4">
-        <span class="text-h6 font-weight-bold text-primary">Hospital Hangout</span>
+        <span class="text-h6 font-weight-bold text-primary">Healthcare Hangout</span>
       </v-list-item>
       <v-divider></v-divider>
       <v-list-item

@@ -87,7 +87,7 @@ export const useProgramStore = defineStore('program', {
                 //   {
                 //     id: '1',
                 //     question: 'Who can participate in Hospital Hangout?',
-                //     answer: 'Hospital Hangout is open to all summer volunteers at Lakeland Regional Health.'
+                //     answer: 'Hospital Hangout is open to all summer volunteers at the hospital.'
                 //   },
                 //   {
                 //     id: '2',
@@ -134,7 +134,7 @@ export const useProgramStore = defineStore('program', {
                         id: '1',
                         name: 'Alex Johnson',
                         role: 'Summer Volunteer 2024',
-                        content: 'Hospital Hangout gave me incredible insight into medical careers. The simulation lab was my favorite part!',
+                        content: 'Healthcare Hangout gave me incredible insight into medical careers. The simulation lab was my favorite part!',
                         avatar: 'https://i.pravatar.cc/150?img=8'
                     },
                     {

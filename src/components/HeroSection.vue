@@ -13,14 +13,14 @@
                 class="text-white text-h2 font-weight-bold mb-4"
                 data-aos="fade-up"
               >
-                Hospital Hangout
+                Healthcare Hangout
               </h1>
               <p 
                 class="text-white text-h6 mb-8 hero-subtitle"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
-                Take a sneak peek behind the scenes of Lakeland Regional Health this summer.
+                Take a sneak peek behind the scenes of our local hospital this summer.
               </p>
               <div 
                 data-aos="fade-up"

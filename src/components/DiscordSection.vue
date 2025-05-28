@@ -7,7 +7,7 @@
             Join Our Discord Community
           </h2>
           <p class="text-body-1 mb-6" data-aos="fade-up" data-aos-delay="100">
-            <strong>Important:</strong> To participate in Hospital Hangout, you must join our Discord server. 
+            <strong>Important:</strong> To participate in Healthcare Hangout, you must join our Discord server. 
             This is where we share important updates, coordinate meetups, and build our community.
           </p>
           <v-btn

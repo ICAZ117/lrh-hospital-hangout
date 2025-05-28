@@ -6,7 +6,7 @@
           Contact Us
         </h2>
         <p class="text-subtitle-1 text-grey-darken-1 mx-auto" style="max-width: 700px">
-          Have questions about Hospital Hangout? Contact our event coordinator, Ibraheem Cazalas!
+          Have questions about Healthcare Hangout? Contact our event coordinator, Ibraheem Cazalas!
         </p>
       </div>
       
@@ -30,7 +30,7 @@
                 <v-icon size="32" color="white">mdi-email</v-icon>
               </v-avatar>
               <h3 class="text-h5 font-weight-bold mb-3">Email</h3>
-              <a href="mailto:lrhhospitalhangout+ibraheemcazalas@gmail.com">ibraheemcazalas@gmail.com</a>
+              <a href="mailto:healthcarehangout+ibraheemcazalas@gmail.com">ibraheemcazalas@gmail.com</a>
             </v-card-text>
           </v-card>
         </v-col>

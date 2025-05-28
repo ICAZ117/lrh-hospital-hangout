@@ -15,11 +15,11 @@
         
         <v-col cols="12" md="6" data-aos="fade-left">
           <h2 class="text-h3 font-weight-bold text-primary mb-6">
-            What is Hospital Hangout?
+            What is Healthcare Hangout?
           </h2>
           
           <p class="text-body-1 mb-4">
-            Hospital Hangout is a free program for summer volunteers at Lakeland Regional Health, offering exclusive tours of some of the hospital's most advanced facilities, hands-on experiences in the simulation lab, and insights into medical marvels.
+            Healthcare Hangout is a free program for summer volunteers at our local hospital, offering exclusive tours of some of the hospital's most advanced facilities, hands-on experiences in the simulation lab, and insights into medical marvels.
           </p>
           
           <p class="text-body-1 mb-6">

@@ -6,7 +6,7 @@
           What Volunteers Say
         </h2>
         <p class="text-subtitle-1 text-white-darken-2 mx-auto" style="max-width: 700px; opacity: 0.8">
-          Hear from previous participants about their Hospital Hangout experiences
+          Hear from previous participants about their Healthcare Hangout experiences
         </p>
       </div>
       

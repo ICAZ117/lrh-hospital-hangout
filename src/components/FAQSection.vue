@@ -6,7 +6,7 @@
           Frequently Asked Questions
         </h2>
         <p class="text-subtitle-1 text-grey-darken-1 mx-auto" style="max-width: 700px">
-          Find answers to common questions about the Hospital Hangout program
+          Find answers to common questions about the Healthcare Hangout program
         </p>
       </div>
       

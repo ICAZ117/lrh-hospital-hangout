@@ -3,11 +3,10 @@
 		<v-container>
 			<v-row>
 				<v-col cols="12" md="4" class="mb-4 mb-md-0">
-					<h3 class="text-h6 text-white mb-4">Hospital Hangout</h3>
+					<h3 class="text-h6 text-white mb-4">Healthcare Hangout</h3>
 					<p class="text-white text-opacity-70">
 						A summer volunteer program offering exclusive
-						behind-the-scenes experiences at Lakeland Regional
-						Health.
+						behind-the-scenes experiences at our local hospital.
 					</p>
 				</v-col>
 
@@ -69,7 +68,11 @@
 					</div>
 					<div class="d-flex align-center">
 						<v-icon color="white" class="mr-2">mdi-email</v-icon>
-						<a class="text-white text-opacity-70" href="mailto:lrhhospitalhangout+ibraheemcazalas@gmail.com">ibraheemcazalas@gmail.com</a>
+						<a
+							class="text-white text-opacity-70"
+							href="mailto:healthcarehangout+ibraheemcazalas@gmail.com"
+							>ibraheemcazalas@gmail.com</a
+						>
 					</div>
 				</v-col>
 			</v-row>
@@ -78,8 +81,15 @@
 
 			<div class="text-center">
 				<span class="text-white text-opacity-70">
-					&copy; {{ new Date().getFullYear() }} Lakeland Regional
-					Health. All rights reserved. Powered by
+					&copy; {{ new Date().getFullYear() }} <a
+						class="text-white"
+						href="https://icaz117.web.app"
+						target="_blank"
+						rel="noopener noreferrer"
+						>Cazalas Technologies</a
+					>. All rights reserved.
+                    <br>
+                    Powered by
 					<a
 						class="text-white"
 						href="https://icaz117.web.app"
